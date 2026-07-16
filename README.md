@@ -91,4 +91,26 @@ I administer the server remotely over a Tailscale (WireGuard) VPN, which leaves 
 
 ---
 
+## Skills
+
+**Cybersecurity & Network Security**
+Intrusion detection & prevention (fail2ban) · VPN/encrypted networking (Tailscale, WireGuard) · Network segmentation & access separation · Authentication & access control · Rate limiting
+
+**Cloud & Infrastructure Architecture**
+Reverse proxy design (Nginx) · Zero-trust-style admin/public separation · Service supervision & auto-recovery (systemd) · Secure tunneling (Cloudflare Tunnel)
+
+**Linux & Systems Administration**
+Bare-metal OS installation (USB flash drive) · Ubuntu Server administration · Process/service management · Least-privilege permission scoping (sudoers)
+
+**Backend Development**
+Python · FastAPI · REST API design · OS-level system interfacing (psutil, journald)
+
+**Frontend & Data Visualization**
+HTML/CSS/JavaScript · Chart.js · Real-time data polling · Live dashboard design
+
+**Applied AI**
+Self-hosted/local LLM deployment (Ollama, Llama 3.2) · AI-assisted development workflow (Claude Code)
+
+---
+
 _Built by Dawson Clark._
