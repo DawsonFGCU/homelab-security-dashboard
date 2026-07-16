@@ -1,6 +1,6 @@
 # Homelab Security Dashboard
 
-A real-time server monitoring and security dashboard I built and self-hosted on a repurposed Lenovo ThinkPad running Ubuntu Server. I built it as a student project to practice Linux administration, network security, backend development, and live data visualization.
+This project is a real-time server monitoring and security dashboard I built on a repurposed Lenovo ThinkPad. I designed this project to practice Linux administration, network security, backend development, practical AI implementation, and live data visualization.
 
 > **Live Demo:** _coming soon_ &nbsp;·&nbsp; **Private access** secured over a WireGuard VPN
 
@@ -10,11 +10,13 @@ A real-time server monitoring and security dashboard I built and self-hosted on 
 
 ## Overview
 
-I'm a student, and I wanted to learn how real servers are actually deployed and secured instead of just reading about it. So I took an old Lenovo ThinkPad, wiped it, and installed Ubuntu Server on it. That turned it into an always-on Linux server I could actually use.
+As a student studying Cybersecurity and Finance at Florida Gulf Coast University, I wanted to spend my summer learning and acquiring real world skills. I wanted to spend time learning how real servers are actually deployed and secured instead of just reading about it. Therefore, I wiped my old ThinkPad and installed Ubuntu Linux. This turned my newly fashioned hardware into an always-on Linux server I could build on.
 
-From there I hardened it across three layers: the network, the OS, and the application itself. Then I built this dashboard on top of it to read live system and security metrics in real time. It includes an intrusion-detection feed and a small AI assistant that runs locally on the server, so no data leaves the machine.
+From there, I hardened the server across three layers: the network, the operating system, and the application itself. I set up fail2ban to detect and block repeated failed SSH login attempts, scoped every permission tightly instead of leaving broad access open, and layered authentication on top of all of it. Once the server itself was locked down, I built this dashboard to sit on top of it — reading live system and security metrics in real time, including the intrusion-detection feed and a small AI assistant that runs locally on the server so no data ever leaves the machine.
 
-I administer the server remotely over a Tailscale (WireGuard) VPN, so there are no open ports. The public demo you're looking at is served through a separate Cloudflare Tunnel. For the frontend, I built a custom HTML, CSS, and JavaScript interface with live Chart.js graphs, using Claude as a coding partner to help me move faster. Every architecture and security decision was mine.
+I administer the server remotely over a Tailscale (WireGuard) VPN, which leaves no ports open and everything encrypted. The public demo you're looking at is served through a separate Cloudflare Tunnel, allowing me to keep administration private while demonstrating my project. For the frontend, I built a custom HTML, CSS, and JavaScript interface with live Chart.js graphs, while using Claude Code as a coding partner to move faster. Every architecture, design, and security decision was mine.
+
+> As AI continues to evolve, I believe leveraging AI to enhance projects and streamline workflows is becoming a critical and highly sought-after skill.
 
 ---
 
