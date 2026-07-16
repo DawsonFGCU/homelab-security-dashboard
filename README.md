@@ -1,5 +1,15 @@
 # Homelab Security Dashboard
 
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
+![Tailscale](https://img.shields.io/badge/Tailscale-242424?logo=tailscale&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Tunnel-F38020?logo=cloudflare&logoColor=white)
+![fail2ban](https://img.shields.io/badge/fail2ban-003A6C?logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?logo=chartdotjs&logoColor=white)
+
 This project is a real-time server monitoring and security dashboard I built on a repurposed Lenovo ThinkPad. I designed this project to practice Linux administration, network security, backend development, practical AI implementation, and live data visualization.
 
 > **Live Demo:** _coming soon_ &nbsp;·&nbsp; **Private access** secured over a WireGuard VPN
@@ -71,11 +81,13 @@ I administer the server remotely over a Tailscale (WireGuard) VPN, which leaves 
 
 ## Tech Stack
 
-- **Backend:** Python, FastAPI, Uvicorn, psutil
-- **Frontend:** Vanilla HTML/CSS/JavaScript, Chart.js
-- **Infrastructure:** Ubuntu Server, Nginx (reverse proxy), systemd
-- **Networking / Security:** Tailscale (WireGuard), Cloudflare Tunnel, fail2ban
-- **AI:** Ollama running Llama 3.2 3B, locally hosted
+| Layer | Tools |
+|-------|-------|
+| **Backend** | Python, FastAPI, Uvicorn, psutil |
+| **Frontend** | Vanilla HTML/CSS/JavaScript, Chart.js |
+| **Infrastructure** | Ubuntu Server, Nginx (reverse proxy), systemd |
+| **Networking / Security** | Tailscale (WireGuard), Cloudflare Tunnel, fail2ban |
+| **AI** | Ollama running Llama 3.2 3B, locally hosted |
 
 ---
 
@@ -93,23 +105,14 @@ I administer the server remotely over a Tailscale (WireGuard) VPN, which leaves 
 
 ## Skills
 
-**Cybersecurity & Network Security**
-Intrusion detection & prevention (fail2ban) · VPN/encrypted networking (Tailscale, WireGuard) · Network segmentation & access separation · Authentication & access control · Rate limiting
-
-**Cloud & Infrastructure Architecture**
-Reverse proxy design (Nginx) · Zero-trust-style admin/public separation · Service supervision & auto-recovery (systemd) · Secure tunneling (Cloudflare Tunnel)
-
-**Linux & Systems Administration**
-Bare-metal OS installation (USB flash drive) · Ubuntu Server administration · Process/service management · Least-privilege permission scoping (sudoers)
-
-**Backend Development**
-Python · FastAPI · REST API design · OS-level system interfacing (psutil, journald)
-
-**Frontend & Data Visualization**
-HTML/CSS/JavaScript · Chart.js · Real-time data polling · Live dashboard design
-
-**Applied AI**
-Self-hosted/local LLM deployment (Ollama, Llama 3.2) · AI-assisted development workflow (Claude Code)
+| Category | Skills |
+|----------|--------|
+| **Cybersecurity & Network Security** | Intrusion detection & prevention (fail2ban) · VPN/encrypted networking (Tailscale, WireGuard) · Network segmentation & access separation · Authentication & access control · Rate limiting |
+| **Cloud & Infrastructure Architecture** | Reverse proxy design (Nginx) · Zero-trust-style admin/public separation · Service supervision & auto-recovery (systemd) · Secure tunneling (Cloudflare Tunnel) |
+| **Linux & Systems Administration** | Bare-metal OS installation (USB flash drive) · Ubuntu Server administration · Process/service management · Least-privilege permission scoping (sudoers) |
+| **Backend Development** | Python · FastAPI · REST API design · OS-level system interfacing (psutil, journald) |
+| **Frontend & Data Visualization** | HTML/CSS/JavaScript · Chart.js · Real-time data polling · Live dashboard design |
+| **Applied AI** | Self-hosted/local LLM deployment (Ollama, Llama 3.2) · AI-assisted development workflow (Claude Code) |
 
 ---
 
