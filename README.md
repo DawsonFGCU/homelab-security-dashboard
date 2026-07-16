@@ -113,4 +113,4 @@ Self-hosted/local LLM deployment (Ollama, Llama 3.2) · AI-assisted development 
 
 ---
 
-_Built by Dawson Clark._
+_Built by Dawson Clark, July 2026._
