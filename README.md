@@ -81,9 +81,10 @@ I administer the server remotely over a Tailscale (WireGuard) VPN, which leaves 
 
 ## What This Project Demonstrates
 
-- Standing up and administering a Linux server from a bare-metal OS install
-- Designing a production-style architecture (reverse proxy, internal-only app binding, process supervision)
-- Applying layered security controls across the transport, application, and OS layers
+- Installing Linux from a USB flash drive and administering a server from a bare-metal OS install, with no cloud provider or pre-built image
+- Setting up a WireGuard-based VPN (Tailscale) for encrypted, zero-open-port remote administration
+- Designing a network architecture that separates private administrative access from public-facing access, routing the public demo through a completely different path (Cloudflare Tunnel) than the one used to manage the server
+- Applying layered security controls across the network, OS, and application layers, including intrusion detection and prevention (fail2ban) and a reverse proxy (Nginx) that keeps the backend from ever facing the internet directly
 - Building a backend API that interfaces directly with the operating system
 - Self-hosting an AI model with zero cloud dependency
 - End-to-end system design and creative problem-solving
